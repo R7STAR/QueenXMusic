@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from VipX import app
+from QueenX import app
 
 def get_id(msg: Message):
     if msg.media:
