@@ -102,7 +102,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         bar = "——————✪ʟőⱱė✪———"
     elif 70 <= queen < 80:
         bar = "———————✪ʟőⱱė✪——"
-    elif 80 <= queenp < 95:
+    elif 80 <= queen < 95:
         bar = "————————✪ʟőⱱė✪—"
     else:
         bar = "—————————✪ʟőⱱė✪"
