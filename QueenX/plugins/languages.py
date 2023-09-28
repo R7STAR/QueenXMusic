@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardButton, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string
-from VipX import app
-from VipX.utils.database import get_lang, set_lang
-from VipX.utils.decorators import (ActualAdminCB, language,
+from QueenX import app
+from QueenX.utils.database import get_lang, set_lang
+from QueenX.utils.decorators import (ActualAdminCB, language,
                                          languageCB)
 
 # Languages Available
