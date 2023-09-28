@@ -4,8 +4,8 @@ from pyrogram.types import (InlineKeyboardButton,
 from youtubesearchpython.__future__ import VideosSearch
 
 from config import BANNED_USERS, MUSIC_BOT_NAME
-from VipX import app
-from VipX.utils.inlinequery import answer
+from QueenX import app
+from QueenX.utils.inlinequery import answer
 
 
 @app.on_inline_query(~BANNED_USERS)
